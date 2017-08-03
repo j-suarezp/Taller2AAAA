@@ -1,0 +1,19 @@
+1. Diseño del experimento y los algoritmos
+  a. Diseño del experimento
+  b. Diseño de los algoritmos
+    - Fuerza bruta:
+        - Problema humano:
+        - Problema formal:
+        - Entradas:
+        - Salidas:
+        - Procedimiento:
+        - Invariantes:
+    - Dividir y vencer:
+        - Problema humano:
+        - Problema formal:
+        - Entradas:
+        - Salidas:
+        - Procedimiento:
+        - Invariantes:
+  
+2. Implementación del experimento
