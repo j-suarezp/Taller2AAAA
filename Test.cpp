@@ -10,7 +10,7 @@ int main( int argc, char* argv[] )
 {
     int numPeriodos;
     std::cin>>numPeriodos;
-    llenarVector(int numPeriodos);
+    llenarVector(numPeriodos);
     
     return 0;
 }
