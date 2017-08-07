@@ -7,7 +7,7 @@
 class MaxSubSeq
 {
       public:
-              std::pair<int, int> MaxSubSeq::fuerzaBruta();
+              std::pair<int, int> fuerzaBruta();
               
       private:
               int numPeriodos;
