@@ -8,7 +8,9 @@ class MaxSubSeq
 {
       public:
               std::pair<int, int> fuerzaBruta();
-              
+				void inicializar(int n);
+				std::vector<int> getValores();
+				std::vector<int> getDerivadas();
       private:
               int numPeriodos;
               std::vector<int>valores;

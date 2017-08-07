@@ -4,29 +4,25 @@
 #include <cstring>
 #include "MaxSubSeq.h"
 
-std::vector<int> llenarVector(int numPeriodos);
 
 int main( int argc, char* argv[] )
 {
-    int numPeriodos;
-    std::cin>>numPeriodos;
-    std::vector<int> vect = llenarVector(numPeriodos);
-    
-    for(int i = 0; i < numPeriodos; i++)
-	std::cout<<vect[i]<<" ";
-    
+
+	MaxSubSeq seq;
+
+	seq.inicializar(std::atoi(argv[1]));
+
+	std::vector<int> v = seq.getValores();
+	std::vector<int> d = seq.getDerivadas();
+
+	for(int i = 0; i < std::atoi(argv[1]) ; i++)
+		std::cout<<v[i]<<" ";
+
+	std::cout<<std::endl<<std::endl;
+
+	for(int i = 0; i < std::atoi(argv[1]) ; i++)
+		std::cout<<d[i]<<" ";
+
     return 0;
 }
 
-std::vector<int> llenarVector(int numPeriodos)
-{
-    int num;
-    std::vector<int> vect;
-    for(int i = 0; i < numPeriodos; i++)
-    {
-        num = (rand() % 999 + 1);
-        vect.push_back(num);
-    }
-    
-    return vect;
-}
