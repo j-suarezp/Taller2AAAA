@@ -19,7 +19,7 @@ std::vector<int> llenarVector(int numPeriodos)
 {
     int num;
     std::vector<int> vect;
-    for(int i = 1; i <= n; i++)
+    for(int i = 1; i <= numPeriodos; i++)
     {
         num = (rand() % 999 + 1);
         vect.push(num);
